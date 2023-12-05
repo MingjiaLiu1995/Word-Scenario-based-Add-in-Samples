@@ -1,6 +1,5 @@
 # Create a Word Add-in that produces content
 
-## Introduction
 This sample shows a practical Word Add-in with content generation features, utilizing either AI or predefined content. 
 
 ## How the sample add-in works
