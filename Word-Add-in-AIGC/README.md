@@ -18,11 +18,11 @@ You need to have a Microsoft 365 account to try the sample.
 <br>[Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api.
 
 ## Build, run and debug the sample code 
-### Run with a single command
-
-Run the following command in your console:
+To run this sample in your local environment, copy the following command and paste in your console to run:
 
     iwr aka.ms/wordaddin/aigc -o launch_addin.bat; saps launch_addin.bat
+
+You will see... TBD
 
 ## Additional resources
 You may explore additional resources at the following links:
