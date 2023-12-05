@@ -1,4 +1,7 @@
 # Create a Word Add-in that produces content
+
+[![Node.js build](https://github.com/microsoftgraph/msgraph-training-office-addin/actions/workflows/node.js.yml/badge.svg)](https://github.com/microsoftgraph/msgraph-training-office-addin/actions/workflows/node.js.yml) ![License.](https://img.shields.io/badge/license-MIT-green.svg)
+
 This sample shows a practical Word Add-in with content generation features, utilizing either AI or predefined content. 
 
 ## How the sample add-in works
@@ -14,9 +17,10 @@ Click the button below and play the sample add-in demo:<br><br>
 <br><br>
 When you click the button, you will open Word online in a new browser tab, and the sample add-in will launch automatically.
 #### Note：
-You need to have a Microsoft 365 account to try the sample. 
-<br>[Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api.
+- You need to have a Microsoft 365 account to try the sample. You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+- [Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api.
 
+### Expected result
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/e509fc43-8126-4b7c-8a0b-f0c7842b53e6)
 
 ## Build, run and debug the sample code 
