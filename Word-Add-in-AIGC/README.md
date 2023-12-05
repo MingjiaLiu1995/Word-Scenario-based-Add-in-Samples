@@ -6,10 +6,12 @@ This sample demonstrates how to use the Microsoft Graph JavaScript SDK to send e
 
 ## How the sample add-in works
 ### Features
-Import data into Excel:
+Create Sample Data, including valid email address (required) and other information.
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/8ce88850-66d0-4880-824c-443595e55172)
-Read data from Excel
+Verify Template and Data, the To Line must contain the column name of the email address
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/82ba1d09-3723-44ab-bad1-2be6abd8982f)
+Send Email, which will pop up a dialog to get the consent of Microsoft Graph. After sign-in, the email will be send out
+![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/31ec33f6-16dc-4be2-9121-b25e31f2062d)
 
 ## Build, run and debug the sample code 
 ### Prerequisites
