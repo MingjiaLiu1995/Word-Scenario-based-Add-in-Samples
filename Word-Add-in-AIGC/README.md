@@ -24,7 +24,8 @@ To run this sample in your local environment, copy the following command and pas
 
     iwr aka.ms/wordaddin/aigc -o launch_addin.bat; saps launch_addin.bat
 
-You will see... TBD
+When you run the command, you will automatically launch the sample in your Visual Studio Code. Start debugging the project by hitting the `F5` key.
+If you don't have VSC installed, you will automatically open the sample folder.
 
 ## Additional resources
 You may explore additional resources at the following links:
