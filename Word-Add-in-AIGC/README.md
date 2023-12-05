@@ -18,18 +18,20 @@ Click the button below and play the sample add-in demo:<br><br>
 When you click the button, you will open Excel online in a new browser tab, and the sample add-in will launch automatically.
 #### Note：
 - You need to have a Microsoft 365 account to try the sample. You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.<br>
-- [Optional] You need to register a web application with the Azure Active Directory admin center to send out emails. You can skip this step if you only want to try other features
-> 1. Open a browser and navigate to the [Microsoft Entra admin center](https://aad.portal.azure.com). Login using a **personal account** (aka: Microsoft Account) or **Work or School Account**.
-> 1. Select **Identity** in the left-hand navigation, then select **App registrations** under **Applications**.
-> 1. Select **New registration**. On the **App registrations** page, set the values as follows.
-    - Set **Name** to `Office Add-in Graph Tutorial`.
-    - Set **Supported account types** to **Accounts in any organizational directory and personal Microsoft accounts**.
-    - Under **Redirect URI**, set the first drop-down to `Single-page application (SPA)` and set the value to `https://localhost:3000/consent.html`.
-> 1. Select **Register**. On the **Office Add-in Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step.
-> **Note**: This step needs to be **performed only once** by add-in developer, aiming to integrate your app with the Microsoft identity platform and establishing the information that it uses to get tokens. After successful registration and add-in published, **customer can use it directly**, do not need to register again. 
-> 1. Edit the `taskpane.js` file and make the following changes.
-    - Replace `YOUR_APP_ID_HERE` with the **Application Id** you got from the App Registration Portal.
+- [Optional] You need to register a web application with the Azure Active Directory admin center to send out emails. You can skip this step if you only want to try other features.<br>
+    
+    > 1. Open a browser and navigate to the [Microsoft Entra admin center](https://aad.portal.azure.com). Login using a **personal account** (aka: Microsoft Account) or **Work or School Account**.
+    > 1. Select **Identity** in the left-hand navigation, then select **App registrations** under **Applications**.
+    > 1. Select **New registration**. On the **App registrations** page, set the values as follows.
+        - Set **Name** to `Office Add-in Graph Tutorial`.
+        - Set **Supported account types** to **Accounts in any organizational directory and personal Microsoft accounts**.
+        - Under **Redirect URI**, set the first drop-down to `Single-page application (SPA)` and set the value to `https://localhost:3000/consent.html`.
+    > 1. Select **Register**. On the **Office Add-in Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step.
+    > **Note**: This step needs to be **performed only once** by add-in developer, aiming to integrate your app with the Microsoft identity platform and establishing the information that it uses to get tokens. After successful registration and add-in published, **customer can use it directly**, do not need to register again. 
+    > 1. Edit the `taskpane.js` file and make the following changes.
+        - Replace `YOUR_APP_ID_HERE` with the **Application Id** you got from the App Registration Portal.
 
+### Expected result
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/8ce88850-66d0-4880-824c-443595e55172)
 
 ## Build, run and debug the sample code 
