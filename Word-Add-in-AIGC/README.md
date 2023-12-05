@@ -4,7 +4,7 @@
 This sample shows a practical Word Add-in with content generation features, utilizing either AI or predefined content. 
 
 ## How the sample add-in works
-### Features
+### Features:
 Import a document template:
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/e509fc43-8126-4b7c-8a0b-f0c7842b53e6)
 
