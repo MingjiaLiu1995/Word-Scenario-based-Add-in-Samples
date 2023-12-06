@@ -31,6 +31,18 @@ To run this sample in your local environment, copy the following command and pas
 When you run the command, you will automatically launch the sample in your Visual Studio Code. Start debugging the project by hitting the `F5` key.
 If you don't have VSC installed, you will automatically open the sample folder.
 
+### Sideload the sample add-in on Word Online
+The previous steps show you how to run our sample on Desktop. As for the Word Online, please follow the following steps to sideload the manifest.xml file on web.
+1.  Keep the webpack server on to host your sample add-in.
+1.  Open [Office on the web](https://office.live.com/).
+1.  Choose **Word**, and then open a new document.
+1.  On the **Home** tab, in the **Add-ins** section, choose **Add-ins** and click **More Add-ins** on the lower-right corner to open Add-in Store Page.
+1.  On the **Office Add-ins** dialog, select the **MY ADD-INS** tab, choose **Manage My Add-ins**, and then **Upload My Add-in**.
+    ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/b046a1b8-7966-4312-9d10-0a0f8cd1e8e0)
+1.  Browse to the localhost add-in manifest file(manifest-localhost.xml), and then select **Upload**.
+ ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/f91ce0ac-8a05-40b4-8139-dac68f80ed15)
+1.  Verify that the add-in loaded successfully.
+   
 ## Additional resources
 You may explore additional resources at the following links:
 - More samples: [Office Add-ins code samples](https://github.com/OfficeDev/Office-Add-in-samples)
