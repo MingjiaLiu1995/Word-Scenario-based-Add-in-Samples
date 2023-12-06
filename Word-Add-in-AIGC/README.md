@@ -18,7 +18,7 @@ Click the button below and play the sample add-in demo:<br><br>
 When you click the button, you will open Word online in a new browser tab, and the sample add-in will launch automatically.
 #### Note：
 - You need to have a Microsoft 365 account to try the sample. You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
-- [Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api.
+- [Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at [Deploy a model and generate text using Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api)
 
 ### Expected result
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/e509fc43-8126-4b7c-8a0b-f0c7842b53e6)
