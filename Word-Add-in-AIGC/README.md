@@ -28,8 +28,8 @@ To run this sample in your local environment, copy the following command and pas
 
     iwr aka.ms/wordaddin/aigc -o launch_addin.bat; saps launch_addin.bat
 
-When you run the command, you will automatically launch the sample in your Visual Studio Code. Start debugging the project by hitting the `F5` key.
-If you don't have VSC installed, you will automatically open the sample folder.
+When you run the command, it will install all the required dependencies, and execute all the required steps to automatically launch the sample in your Visual Studio Code. Start debugging the project by hitting the `F5` key.
+If you don't have VSC installed, the command will automatically open the sample folder.
 
 ### Sideload the sample add-in on Word Online
 The previous steps show you how to run our sample on Desktop. As for the Word Online, please follow the following steps to sideload the manifest.xml file on web.
