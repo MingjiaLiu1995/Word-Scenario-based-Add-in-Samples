@@ -5,7 +5,7 @@
 This sample shows a practical Word Add-in with content generation features, utilizing either AI or predefined content. 
 
 ## How the sample add-in works
-### Features:
+### Features
 Import a document template:
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/e509fc43-8126-4b7c-8a0b-f0c7842b53e6)
 
@@ -19,13 +19,16 @@ Insert predefined image into the document:
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/8c29bde3-4531-49c2-bd7c-03831070bc90)
 
 ## Build, run and debug the sample code 
+### Prerequisites
+- You need to have a Microsoft 365 account to try the sample. You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
+- [Optional] If you're interested in exploring AIGC, follow the procedure to request an Azure OpenAI service account. Find more details at [Deploy a model and generate text using Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=rest-api)
+  
 ### Manually run on your local machine
-If you prefer to run the sample with clear and step-by-step instructions, follow the detailed steps provided below.
+To run the sample on desktop, please follow the detailed steps provided below.
 1. Install a recent version of [npm](https://www.npmjs.com/get-npm) and [Node.js](https://nodejs.org/) on your computer. To verify if you've already installed these tools, run the commands `node -v` and `npm -v` in your terminal.
 2. Clone the repo to your local workspace or directly download the source code.
 3. Open the project in Visual Studio Code.
-4. *Optional*: If you're interested in exploring AIGC, with prerequisites all satisfied, you can fill in the parameters apiKey, endpoint and deployment in src/taskpane/components/utility/AIData.tsx to persist the Azure OpenAI account or you can skip this step to fill in the account when you operate the AI related UI.
-5. If you cannot get an OpenAI account, just try the predefined functionality. Just go ahead.
+4. [Optional] If you're interested in exploring AIGC, with prerequisites all satisfied, you can fill in the parameters apiKey, endpoint and deployment in `src/taskpane/components/utility/AIData.tsx` to persist the Azure OpenAI account. Or you can skip this step if you just want to try the predefined functionality.
 6. cd src folder and execute following commands:
     ```console
     npm install
@@ -34,13 +37,13 @@ If you prefer to run the sample with clear and step-by-step instructions, follow
 7. Start debugging the project by hitting the `F5` key in Visual Studio Code.
 
 ### Sideload the sample add-in on Word Online
-The previous steps show you how to run our sample on Desktop. As for the Word Online, please follow the following steps to sideload the manifest.xml file on web.
-1.  **Keep the webpack server on** to host your sample add-in.
+The previous steps show you how to run our sample on desktop. As for the Word Online, please follow the following steps to sideload the manifest.xml file on web.
+1.  Keep the webpack server on to host your sample add-in.
 1.  Open [Office on the web](https://office.live.com/).
 1.  Choose **Word**, and then open a new document.
 1.  On the **Home** tab, in the **Add-ins** section, choose **Add-ins** and click **More Add-ins** on the lower-right corner to open Add-in Store Page.
 1.  On the **Office Add-ins** dialog, select the **MY ADD-INS** tab, choose **Manage My Add-ins**, and then **Upload My Add-in**.
-   ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/bae7caf0-e3d1-4f7f-940a-ff6a537dc13e)
+    ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/5f24dd36-a0eb-4c53-8799-175f099e0b7f)
 1.  Browse to the localhost add-in manifest file(manifest-localhost.xml), and then select **Upload**.
  ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/f91ce0ac-8a05-40b4-8139-dac68f80ed15)
 1.  Verify that the add-in loaded successfully. 
