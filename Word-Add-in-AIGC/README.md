@@ -10,12 +10,11 @@ This sample demonstrates how to use the Microsoft Graph JavaScript SDK to send e
 - Verify Template and Data, the To Line must contain the column name of the email address.
 - Send Email, which will pop up a dialog to get the consent of Microsoft Graph. After sign-in, the email will be send out.
 
-## Build, run and debug the sample code 
 ### Play the sample add-in demo
 Click the button below and play the sample add-in demo:<br><br>
 [<img src="https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/6155cd00-5e16-405e-82f4-28ed2e4ce54d" width="120"/>](https://office.live.com/start/Excel.aspx?culture=en-US&omextemplateclient=Excel&omexsessionid=c0a9c7a1-b954-45df-9295-8c1e21201f34&omexcampaignid=none&templateid=WA200006296&templatetitle=Mail%20Merge%20Add-in%20for%20Excel&omexsrctype=1)
-<br><br>
-When you click the button, you will open Excel online in a new browser tab, and the sample add-in will launch automatically.
+<br>
+
 #### Note：
 - You need to have a Microsoft 365 account to try the sample. You can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.<br>
 - [Optional] You need to register a web application with the Azure Active Directory admin center to send out emails. You can skip this step if you only want to try other features.<br>
@@ -32,6 +31,8 @@ When you click the button, you will open Excel online in a new browser tab, and 
         - Replace `YOUR_APP_ID_HERE` with the **Application Id** you got from the App Registration Portal.
 
 ### Expected result
+When you click the button, you will open Excel online in a new browser tab, and the sample add-in will launch automatically.
+
 ![image](https://github.com/MingjiaLiu1995/Word-Scenario-based-Add-in-Samples/assets/107099441/8ce88850-66d0-4880-824c-443595e55172)
 
 ## Build, run and debug the sample code 
@@ -53,5 +54,5 @@ Did you experience any problems with the sample? [Create an issue]( https://gith
 ## Copyright
 Copyright (c) 2021 Microsoft Corporation. All rights reserved.
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-**Note**: The taskpane.html file contains an image URL that tracks diagnostic data for this sample add-in. Please remove the image tag if you reuse this sample in your own code project.
+<br>**Note**: The taskpane.html file contains an image URL that tracks diagnostic data for this sample add-in. Please remove the image tag if you reuse this sample in your own code project.
 <img src="https://pnptelemetry.azurewebsites.net/pnp-officeaddins/samples/word-add-in-aigc">
