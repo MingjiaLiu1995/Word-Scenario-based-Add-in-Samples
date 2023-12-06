@@ -2,7 +2,7 @@
 
 [![Node.js build](https://github.com/microsoftgraph/msgraph-training-office-addin/actions/workflows/node.js.yml/badge.svg)](https://github.com/microsoftgraph/msgraph-training-office-addin/actions/workflows/node.js.yml) ![License.](https://img.shields.io/badge/license-MIT-green.svg)
 
-This sample shows a practical Word Add-in with content generation features, utilizing either AI or predefined content. 
+This sample shows a practical Word Add-in with content insertion features, utilizing either AI or predefined content. 
 
 ## How the sample add-in works
 ### Features
